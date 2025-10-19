@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-box">
+      <h1>result</h1>
+      <div class="p-g-t">
+        <h2>percentage -<span class="per"></span></h2>
+         <h2>grade -<span class="gra"></span></h2>
+        <h2>total -<span class="tot"></span></h2>
+      </div>
+    </div>
+    <div class="content">
+      <div class="right-box">
+        <input type="number" id="c" placeholder="c programming"/>
+        <input type="number" id="dsa" placeholder="data structure"/>
+        <input type="number" id="dbms" placeholder="database management system"/>
+        <input type="number" id="wt" placeholder="web technology"/>
+        <input type="number" id="py" placeholder="python"/>
+        <button type="button" onclick="show_result()">show result</button>
+      </div>
+    </div>
+    <div class="result">
+      <h2></h2>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
